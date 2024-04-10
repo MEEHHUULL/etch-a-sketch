@@ -1,0 +1,42 @@
+#btn{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%; 
+}
+
+.contflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    height: 50px;
+    width: 50px;
+}
+
+.column{
+    height: 50px;
+    width: 50px;
+}
+
+.row,.column{
+    background-color: lightcyan;
+}
+
+#container{
+    display: flex;
+    height: 1000px ;
+    width: 1000px;
+}
+
+.row:hover{
+    background-color: red;
+}
+
+.column:hover{
+    background-color: red;
+}
